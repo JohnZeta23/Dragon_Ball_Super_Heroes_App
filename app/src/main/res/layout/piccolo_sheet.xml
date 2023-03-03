@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/personajeimg"
+        android:layout_width="203dp"
+        android:layout_height="197dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Piccolo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/piccolo"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piccolo"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_below="@id/personajeimg"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="313dp"
+        android:layout_height="153dp"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:text="Es un namekiano que nació en el lecho de muerte de Piccolo Daimaku. En un principio fue el enemigo de Goku, pero con el paso del tiempo se le termino aliando."
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20dp" />
+
+</RelativeLayout>

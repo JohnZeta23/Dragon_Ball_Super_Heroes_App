@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcercaDeFragment">
+
+    <ImageView
+        android:id="@+id/label"
+        android:layout_width="292dp"
+        android:layout_height="93dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:src="@drawable/acercade"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/Director"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@id/label"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Tetsuro Kodama"
+        android:scaleType="centerCrop"
+        android:src="@drawable/creador"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha: 11 de junio de 2022"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_below="@id/Director"
+        android:layout_centerHorizontal="true"
+        android:labelFor="@id/Director"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creador: Tetsuro Kodama"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_below="@id/label1"
+        android:layout_centerHorizontal="true"
+        android:labelFor="@id/Director"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temporadas: 5"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_below="@id/label2"
+        android:layout_centerHorizontal="true"
+        android:labelFor="@id/Director"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/label4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción:"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_below="@id/label3"
+        android:layout_centerHorizontal="true"
+        android:labelFor="@id/Director"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="324dp"
+        android:layout_height="185dp"
+        android:layout_below="@id/label4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:text="La malvada organización Red Ribbon Army se reforma con nuevos y más poderosos androides, Gamma 1 y Gamma 2 para buscar venganza en contra de Goku."
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20dp" />
+
+</RelativeLayout>

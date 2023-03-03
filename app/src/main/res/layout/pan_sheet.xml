@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/personajeimg"
+        android:layout_width="203dp"
+        android:layout_height="197dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Son Pan"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pan"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pan"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_below="@id/personajeimg"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="330dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:text="Pan es la hija de Gohan y Videl, y a su vez nieta de Goku, Videl y de Mr. Satan. Ella posee en su interior sangre de la raza guerrera Saiyayin."
+        android:justificationMode="inter_word"
+        android:textSize="20dp"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

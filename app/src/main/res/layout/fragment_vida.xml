@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VidaFragment">
+
+
+    <ImageView
+        android:id="@+id/label"
+        android:layout_width="292dp"
+        android:layout_height="93dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:src="@drawable/vida"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_below="@id/label"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Gohan y Pan"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gohanpan"/>
+
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para mí:"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_below="@id/imagen"
+        android:layout_centerHorizontal="true"
+        android:labelFor="@id/label"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="324dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/label1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:text="Está película se sintió como regresar a mi infancia, al volver a ver mis personajes favoritos de mi amada serie de Dragon Ball en la pantalla grande y creando grandes momentos para los espectadores con este nuevo filme, que quedaran para la posteriedad."
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20dp" />
+
+</RelativeLayout>

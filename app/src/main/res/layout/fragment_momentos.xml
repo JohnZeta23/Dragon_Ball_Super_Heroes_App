@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MomentosFragment">
+
+    <ImageView
+        android:id="@+id/label"
+        android:layout_width="292dp"
+        android:layout_height="93dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:src="@drawable/momentos"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/name1"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:labelFor="@id/btnGohan"
+        android:text="Gohan se transforma"
+        android:textSize="13dp" />
+
+    <ImageButton
+        android:id="@+id/momento1"
+        android:layout_width="97dp"
+        android:layout_height="83dp"
+        android:layout_below="@+id/name1"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/momento1" />
+
+    <TextView
+        android:id="@+id/name2"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"
+        android:layout_toRightOf="@id/name1"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:labelFor="@id/btnPiccolo"
+        android:text="Piccolo se transforma"
+        android:textSize="13dp" />
+
+    <ImageButton
+        android:id="@+id/momento2"
+        android:layout_width="97dp"
+        android:layout_height="83dp"
+        android:layout_below="@+id/name2"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/momento1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/momento2" />
+
+    <TextView
+        android:id="@+id/name3"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"
+        android:layout_toRightOf="@id/name2"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:labelFor="@id/btnPiccolo"
+        android:text="Piccolo entrena a Pan"
+        android:textSize="13dp" />
+
+    <ImageButton
+        android:id="@+id/momento3"
+        android:layout_width="97dp"
+        android:layout_height="83dp"
+        android:layout_below="@+id/name3"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/momento2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/momento3" />
+
+    <WebView
+        android:id="@+id/Wvmomento"
+        android:layout_width="310dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_below="@id/momento2"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="324dp"
+        android:layout_height="185dp"
+        android:layout_below="@id/Wvmomento"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:text=""
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20dp" />
+
+</RelativeLayout>

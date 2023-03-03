@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dragon Ball Super Heroes</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_settings">Settings</string>
+    <string name="menu_personajes">Personajes</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

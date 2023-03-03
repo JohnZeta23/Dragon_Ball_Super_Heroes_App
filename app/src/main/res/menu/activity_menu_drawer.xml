@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item
+            android:id="@+id/nav_item_one"
+            android:icon="@drawable/baseline_person"
+            android:title="Personajes"></item>
+        <item
+            android:id="@+id/nav_item_two"
+            android:icon="@drawable/baseline_local_movies"
+            android:title="Momentos"></item>
+        <item
+            android:id="@+id/nav_item_three"
+            android:icon="@drawable/baseline_info"
+            android:title="Acerca de"></item>
+        <item
+            android:id="@+id/nav_item_four"
+            android:icon="@drawable/baseline_favorite_24"
+            android:title="En mi vida"></item>
+        <item
+            android:id="@+id/nav_item_five"
+            android:icon="@drawable/baseline_contact_mail"
+            android:title="Contratame"></item>
+
+        <item
+            android:id="@+id/nav_item_six"
+            android:icon="@drawable/baseline_arrow_back"
+            android:title="Pantalla de Inicio"></item>
+    </group>
+</menu>
